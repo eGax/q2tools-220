@@ -50,7 +50,7 @@ qrad3
 *   -smooth sets the angle (in degrees) for autophong.  Default is 44, so it will phong a 9-sided or more prism, but not 8-sided.  Set to zero to disable.
 *   -maxmapdata sets lightng memory limit.  Original is 0x200000 and it can be set up to 0x800000 (8388608).  Requires an engine that supports the higher limit.
 *	-saturation applies to light reflected from surfaces.  Values < 1.0 desaturate.  Values >1.0 oversaturate. 
-*   Any tga replacement textures found will be used for radiosity.
+*   Any tga replacement textures found will be used for radiosity, but ignores jpg.
 *   -basedir sets the base directory.  Use this if modding other than baseq2.  Defaults to baseq2.
 
 
